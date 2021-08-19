@@ -219,7 +219,7 @@ set_tarball_urls() {
     # Simple version
     latest="v1.31.0"
     export NETDATA_TARBALL_URL="https://cdn.jsdelivr.net/gh/nekomiya-hinata/netdata_files@v1.2/archive/netdata-v1.31.0.tar.gz"
-    export NETDATA_TARBALL_CHECKSUM_URL="ttps://cdn.jsdelivr.net/gh/nekomiya-hinata/netdata_files@v1.2/sha256sums.txt"
+    export NETDATA_TARBALL_CHECKSUM_URL="https://cdn.jsdelivr.net/gh/nekomiya-hinata/netdata_files@v1.2/sha256sums.txt"
   else
     export NETDATA_TARBALL_URL="$NETDATA_TARBALL_BASEURL/netdata-latest.tar.gz"
     export NETDATA_TARBALL_CHECKSUM_URL="$NETDATA_TARBALL_BASEURL/sha256sums.txt"
